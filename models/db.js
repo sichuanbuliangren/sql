@@ -8,7 +8,8 @@ const sequelize = new Sequelize({
   host: 'localhost',
   // 选择一种支持的数据库:
   // 'mysql', 'mariadb', 'postgres', 'mssql', 'sqlite', 'snowflake', 'db2' or 'ibmi'
-  dialect: 'mysql'
+  dialect: 'mysql',
+  // logging: false // 关闭日志输出, 默认是console.log
 })
 
 module.exports = sequelize

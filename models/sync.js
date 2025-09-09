@@ -1,5 +1,5 @@
 // 同步所有模型
-require('./admin')
+require('./Admin')
 require('./Class')
 require('./Book')
 require('./Student')
